@@ -7,7 +7,7 @@
     <title>FitLove - Un espacio para nosotras | Iniciá sesión</title>
     <link rel="shortcut icon" href="../img/favicon/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/main.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-md">
@@ -41,26 +41,26 @@
     </header>
     <main>
         <h1 class="text-center h1-media-520">Dejá tu mensaje o ingresá con tu cuenta</h1>
-        <div class="grids flexbox">
+        <div class="flexbox grids">
             <section class="contenedor-form form ms-5 mb-5">
               <h2 class="mb-4">Queremos escucharte!</h2>
                 <form action="">
                   <div class="mb-3">
-                    <label for="name class="form-label">Nombre y Apellido
+                    <label for="name" class="form-label">Nombre y Apellido
                     </label>
-                    <input type="text" class="form-control bg-h2" id="name">
+                    <input type="text" class="form-control bg-gral" id="name">
                   </div>
                   <div class="mb-3">
                     <label for="phone-number" class="form-label">Teléfono</label>
-                    <input type="number" class="form-control bg-h2" id="phone-number">
+                    <input type="number" class="form-control bg-gral" id="phone-number">
                   </div>
                   <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control bg-h2" id="exampleFormControlInput1">
+                    <input type="email" class="form-control bg-gral" id="exampleFormControlInput1">
                   </div>
                   <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Dejá tu comentario</label>
-                    <textarea class="form-control bg-h2" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    <textarea class="form-control bg-gral" id="exampleFormControlTextarea1" rows="5"></textarea>
                   </div>
                   <p class="text-center">
                     Si tenés alguna duda, consulta o sugerencia, dejanos tu mensaje y a la brevedad te contactaremos!
@@ -77,13 +77,13 @@
             <section class="contenedor-form inicio mt-5 me-sm-2 me-md-4">
                 <h3>Iniciá sesión</h3>
                 <form action="">
-                  <div class="mb-3 label">
+                  <div class="mb-5">
                     <label for="usuario" class="form-label">Usuario</label>
-                    <input class="form-control bg-h2" type="text" aria-label="default input example">
+                    <input class="form-control bg-gral" type="text" aria-label="default input example">
                   </div>
                   <div class="mb-3">
                     <label for="password" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control bg-h2" id="password">
+                    <input type="password" class="form-control bg-gral" id="password">
                   </div>
                   <div class="flexbox">
                     <a href="#" class="pe-3 text-center">¿Olvidaste tu contraseña?</a>
@@ -94,15 +94,14 @@
             <section class="contenedor-form usuario mb-5 me-sm-2 me-md-4">
               <h3>Creá tu usuario</h3>
               <form action="">
-                <div class="mb-3 label">
+                <div class="mb-5">
                   <label for="email" class="form-label">Ingresa tu mail</label>
-                  <input type="email" class="form-control bg-h2 mb-3" id="email" aria-describedby="emailHelp">
+                  <input type="email" class="form-control bg-gral mb-3" id="email" aria-describedby="emailHelp">
                     <div class="flexbox"> 
                       <span class="pe-1 text-center">Serás redirigida para terminar</span>
                       <input type="submit" value="Crear" class="button-ingreso">
                     </div>
               </form>
-
             </section>
         </div>
     </main>
