@@ -105,8 +105,8 @@
             }
         }
     }
-    div.carousel{
-        width: $w-100;
+    .break-point-none{
+        display: none;
     }
     div.grids{
         grid-template-columns: 1fr;

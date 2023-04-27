@@ -399,8 +399,8 @@ div.grids {
   nav.navbar a img {
     width: 150px;
   }
-  div.carousel {
-    width: 100%;
+  .break-point-none {
+    display: none;
   }
   div.grids {
     grid-template-columns: 1fr;
