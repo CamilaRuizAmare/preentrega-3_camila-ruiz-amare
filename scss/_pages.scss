@@ -1,3 +1,4 @@
+//pages organiza-tu-semana y a-moverse
 div.carousel{
     width: $w-100;
     div.carousel-item{
@@ -22,6 +23,12 @@ p{
             }
     }
 }
+.img-ejercicios{
+    padding: 0 25px;
+    display: flex;
+    justify-content: center;
+}
+//page nuestros-planes
 .button{
     @include buttons-gral(none, 4px, $color-complementario);
     @include buttons-extra($fs-button,80px);
@@ -29,11 +36,6 @@ p{
         background-color: $color-texto;
         color: $color-bg;
     }
-}
-.img-ejercicios{
-    padding: 0 25px;
-    display: flex;
-    justify-content: center;
 }
 section.contenedor-dropdown{
         @include spacing($w-95, 15px auto, 15px);
@@ -91,7 +93,7 @@ figure{
         font-size: 1.6rem;
     }
 }
-
+//page ingreso
 section.contenedor-form{
     display: flex;
     flex-direction: column;
