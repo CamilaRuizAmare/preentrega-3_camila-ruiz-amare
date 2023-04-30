@@ -139,6 +139,10 @@ div.carousel div.carousel-item img {
   width: 100%;
 }
 
+.img-mobile {
+  display: none;
+}
+
 iframe {
   width: 100%;
   margin: 5px auto;
@@ -389,19 +393,7 @@ div.grids {
     font-size: 1.9rem;
   }
 }
-@media (width < 520px) {
-  nav.navbar ul {
-    align-items: center;
-  }
-  nav.navbar ul li {
-    width: 100%;
-  }
-  nav.navbar a img {
-    width: 150px;
-  }
-  .break-point-none {
-    display: none;
-  }
+@media (width < 560px) {
   div.grids {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr) 2fr;
@@ -418,6 +410,25 @@ div.grids {
   .h1-media-520 {
     font-size: 3.8rem;
     margin: 1px 5px;
+  }
+}
+@media (width < 520px) {
+  nav.navbar ul {
+    align-items: center;
+  }
+  nav.navbar ul li {
+    width: 100%;
+  }
+  nav.navbar a img {
+    width: 150px;
+  }
+  .break-point-none {
+    display: none;
+  }
+  .img-mobile {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
   }
 }
 

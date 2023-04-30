@@ -6,6 +6,9 @@ div.carousel{
         }
     }
 }
+.img-mobile{
+    display: none;
+}
 iframe{
     @include spacing($w-100,5px auto,15px 5px);
     height: 315px;
